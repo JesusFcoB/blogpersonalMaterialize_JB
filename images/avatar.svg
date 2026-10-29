@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-labelledby="title">
+  <title id="title">Avatar ilustrado</title>
+  <rect width="200" height="200" rx="100" fill="#e8eaf6"/>
+  <circle cx="100" cy="82" r="39" fill="#bd8260"/>
+  <path d="M56 77c1-32 19-50 47-50 28 0 44 20 43 50-10-13-21-19-40-18-18 1-32 9-50 18Z" fill="#123b2f"/>
+  <path d="M33 200c4-45 30-70 67-70s63 25 67 70" fill="#3949ab"/>
+  <path d="M79 102c6 7 13 10 21 10s15-3 21-10" fill="none" stroke="#123b2f" stroke-linecap="round" stroke-width="4"/>
+  <circle cx="86" cy="81" r="3.5" fill="#123b2f"/>
+  <circle cx="116" cy="81" r="3.5" fill="#123b2f"/>
+</svg>

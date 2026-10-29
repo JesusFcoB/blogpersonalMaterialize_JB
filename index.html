@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="El blog personal de Jesús Francisco Barreras Samaniego: ideas, aprendizaje y experiencias.">
+  <title>Cuaderno abierto — Jesús Francisco Barreras Samaniego</title>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="white" role="navigation" aria-label="Navegación principal">
+    <div class="nav-wrapper container">
+      <a href="#inicio" class="brand-logo">Cuaderno<span> abierto</span></a>
+      <a href="#" data-target="menu-movil" class="sidenav-trigger" aria-label="Abrir menú de navegación">
+        <i class="material-icons">menu</i>
+      </a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#publicaciones">Publicaciones</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li>
+          <button type="button" class="theme-toggle" data-theme-toggle aria-label="Activar modo oscuro" aria-pressed="false">
+            <i class="material-icons" aria-hidden="true">dark_mode</i>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul id="menu-movil" class="sidenav">
+    <li><a href="#inicio"><i class="material-icons">home</i>Inicio</a></li>
+    <li><a href="#publicaciones"><i class="material-icons">article</i>Publicaciones</a></li>
+    <li><a href="#sobre-mi"><i class="material-icons">person</i>Sobre mí</a></li>
+    <li><a href="#contacto"><i class="material-icons">mail</i>Contacto</a></li>
+    <li>
+      <button type="button" class="theme-toggle sidenav-theme-toggle" data-theme-toggle aria-label="Activar modo oscuro" aria-pressed="false">
+        <i class="material-icons" aria-hidden="true">dark_mode</i>
+        <span>Modo oscuro</span>
+      </button>
+    </li>
+  </ul>
+
+  <header id="inicio" class="parallax-container hero">
+    <div class="hero-shade"></div>
+    <div class="section no-pad-bot">
+      <div class="container hero-content">
+        <div class="hero-copy-block">
+          <p class="eyebrow">Ideas, aprendizaje y vida cotidiana</p>
+          <h1 class="header">Hola, soy<br>Jesús Francisco.</h1>
+          <p class="hero-copy">Estudiante y aprendiz constante. En este cuaderno comparto lo que voy descubriendo sobre tecnología, creatividad y las pequeñas pausas que inspiran nuevas ideas.</p>
+          <div class="interest-chips" aria-label="Mis intereses">
+            <div class="chip">Desarrollo web</div>
+            <div class="chip">Tecnología</div>
+            <div class="chip">Aprendizaje</div>
+          </div>
+          <a href="#publicaciones" class="btn-large waves-effect waves-light">Ver publicaciones</a>
+        </div>
+        <div class="hero-portrait">
+          <img src="https://i.ibb.co/FLt1ytk6/foto.png" alt="Avatar ilustrado de Jesús Francisco Barreras Samaniego">
+          <p>Un gusto tenerte por aquí.</p>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background1.jpg" alt="" aria-hidden="true"></div>
+  </header>
+
+  <main>
+    <section id="publicaciones" class="container journal-section">
+      <div class="section-heading">
+        <p class="eyebrow">Notas recientes</p>
+        <h2>Mis publicaciones</h2>
+        <p>Reflexiones personales sobre aprender, crear y mirar el mundo con curiosidad.</p>
+      </div>
+
+      <div class="row journal-grid">
+        <article class="col s12 m6 l4">
+          <div class="card post-card">
+            <div class="card-image">
+              <img src="background1.jpg" alt="Una motocicleta estacionada en una calle urbana">
+            </div>
+            <div class="card-content">
+              <div class="chip">Aprendizaje</div>
+              <time class="post-meta" datetime="2026-10-28">28 de octubre de 2026</time>
+              <span class="card-title">Crear conocimiento</span>
+              <p>Aprender no sucede de golpe: se construye con preguntas, práctica y la voluntad de volver a intentarlo.</p>
+            </div>
+            <div class="card-action">
+              <a href="#articulo-conocimiento" class="modal-trigger">Leer artículo <i class="material-icons" aria-hidden="true">arrow_forward</i></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="col s12 m6 l4">
+          <div class="card post-card">
+            <div class="card-image">
+              <img src="background3.jpg" alt="Una vía de tren que atraviesa un bosque de montaña">
+            </div>
+            <div class="card-content">
+              <div class="chip">Bienestar</div>
+              <time class="post-meta" datetime="2026-10-21">21 de octubre de 2026</time>
+              <span class="card-title">Un respiro mirando la Luna</span>
+              <p>Una pausa bajo el cielo nocturno me recordó que también necesitamos silencio para ordenar lo que pensamos.</p>
+            </div>
+            <div class="card-action">
+              <a href="#articulo-luna" class="modal-trigger">Leer artículo <i class="material-icons" aria-hidden="true">arrow_forward</i></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="col s12 m6 l4">
+          <div class="card post-card">
+            <div class="card-image">
+              <img src="background2.jpg" alt="El interior de un vehículo antiguo rodeado de vegetación">
+            </div>
+            <div class="card-content">
+              <div class="chip">Creatividad</div>
+              <time class="post-meta" datetime="2026-10-18">18 de octubre de 2026</time>
+              <span class="card-title">Hacer espacio para empezar</span>
+              <p>Una mesa despejada no resuelve todo, pero puede ser el primer paso para dar forma a una idea nueva.</p>
+            </div>
+            <div class="card-action">
+              <a href="#articulo-empezar" class="modal-trigger">Leer artículo <i class="material-icons" aria-hidden="true">arrow_forward</i></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="col s12 m6 l4">
+          <div class="card post-card">
+            <div class="card-image">
+              <img src="background1.jpg" alt="Una motocicleta verde que invita a descubrir nuevos caminos">
+            </div>
+            <div class="card-content">
+              <div class="chip">Tecnología</div>
+              <time class="post-meta" datetime="2026-10-12">12 de octubre de 2026</time>
+              <span class="card-title">Mi primer proyecto web</span>
+              <p>Compartir un primer proyecto también significa compartir los errores, las preguntas y todo lo aprendido al resolverlos.</p>
+            </div>
+            <div class="card-action">
+              <a href="#articulo-proyecto" class="modal-trigger">Leer artículo <i class="material-icons" aria-hidden="true">arrow_forward</i></a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="parallax-container interlude" aria-label="Pausa para reflexionar">
+      <div class="section no-pad-bot valign-wrapper">
+        <div class="container">
+          <blockquote>“Prestar atención es la forma más sencilla de estar presente.”</blockquote>
+        </div>
+      </div>
+      <div class="parallax"><img src="background2.jpg" alt="" aria-hidden="true"></div>
+    </section>
+
+    <section id="sobre-mi" class="container about-section">
+      <div class="row about-row">
+        <div class="col s12 l5 about-intro">
+          <p class="eyebrow">Un poco de contexto</p>
+          <h2>Sobre mí</h2>
+          <p class="about-copy">Soy Jesús Francisco Barreras Samaniego. Me gusta aprender haciendo, compartir mis avances y encontrar inspiración en las experiencias cotidianas.</p>
+          <div class="about-avatar">
+            <img src="https://i.ibb.co/FLt1ytk6/foto.png" alt="" aria-hidden="true">
+            <span>Jesús Francisco<br><small>Estudiante y creador en formación</small></span>
+          </div>
+        </div>
+        <div class="col s12 l7">
+          <div class="about-panel">
+            <h3>Habilidades que estoy desarrollando</h3>
+            <div class="chip">HTML5</div>
+            <div class="chip">CSS3</div>
+            <div class="chip">JavaScript</div>
+            <div class="chip">Materialize</div>
+
+            <h3>Intereses</h3>
+            <p class="about-copy"><i class="material-icons inline-icon" aria-hidden="true">code</i> Desarrollo web, diseño de interfaces y herramientas digitales para aprender.</p>
+            <p class="about-copy"><i class="material-icons inline-icon" aria-hidden="true">auto_stories</i> Leer, explorar ideas nuevas y documentar el proceso creativo.</p>
+
+            <h3>Mis objetivos</h3>
+            <p class="about-copy">Quiero seguir construyendo proyectos útiles, fortalecer mis fundamentos de programación y crear experiencias web accesibles que ayuden a otras personas a aprender y expresarse.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="parallax-container closing-banner">
+      <div class="section no-pad-bot valign-wrapper">
+        <div class="container center">
+          <p class="eyebrow">Gracias por leer</p>
+          <h2>Las ideas crecen cuando se comparten.</h2>
+        </div>
+      </div>
+      <div class="parallax"><img src="background3.jpg" alt="" aria-hidden="true"></div>
+    </section>
+
+    <section id="contacto" class="container contact-section">
+      <div class="section-heading">
+        <p class="eyebrow">Hablemos</p>
+        <h2>Contacto</h2>
+        <p>¿Tienes una idea, una pregunta o una recomendación? Escríbeme.</p>
+      </div>
+      <div class="row">
+        <div class="col s12 l8 offset-l2">
+          <div class="card-panel contact-panel">
+            <form id="formulario-contacto">
+              <div class="input-field">
+                <i class="material-icons prefix" aria-hidden="true">person</i>
+                <input id="nombre" name="nombre" type="text" autocomplete="name" required minlength="2">
+                <label for="nombre">Nombre</label>
+              </div>
+              <div class="input-field">
+                <i class="material-icons prefix" aria-hidden="true">email</i>
+                <input id="correo" name="correo" type="email" autocomplete="email" required>
+                <label for="correo">Correo electrónico</label>
+              </div>
+              <div class="input-field">
+                <i class="material-icons prefix" aria-hidden="true">chat</i>
+                <textarea id="mensaje" name="mensaje" class="materialize-textarea" required minlength="10"></textarea>
+                <label for="mensaje">Mensaje</label>
+              </div>
+              <button class="btn waves-effect waves-light send-button" type="submit">
+                Validar mensaje <i class="material-icons right">send</i>
+              </button>
+              <p class="form-note">Este formulario valida los datos en tu navegador; no envía ni almacena mensajes.</p>
+              <p id="estado-formulario" class="form-status" role="status" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+      <p class="direct-contact center-align"><i class="material-icons" aria-hidden="true">alternate_email</i> También puedes escribirme a <a href="mailto:JesusBar@gmail.com">JesusBar@gmail.com</a></p>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row footer-row">
+        <div class="col s12 m7">
+          <h2>Cuaderno abierto</h2>
+          <p>Compartiendo ideas, experiencias y aprendizajes.</p>
+        </div>
+        <div class="col s12 m5 footer-contact">
+          <a href="mailto:JesusBar@gmail.com"><i class="material-icons" aria-hidden="true">email</i> JesusBar@gmail.com</a>
+          <a href="#inicio"><i class="material-icons" aria-hidden="true">home</i> Volver a Inicio</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">© 2026 Jesús Francisco Barreras Samaniego. Todos los derechos reservados.</div>
+    </div>
+  </footer>
+
+  <a class="btn-floating btn-large back-to-top" href="#inicio" aria-label="Volver a Inicio">
+    <i class="material-icons">keyboard_arrow_up</i>
+  </a>
+
+  <section id="articulo-conocimiento" class="modal article-modal" aria-labelledby="titulo-conocimiento">
+    <div class="modal-content">
+      <p class="eyebrow">Aprendizaje · 28 de octubre de 2026</p>
+      <h2 id="titulo-conocimiento">Crear conocimiento</h2>
+      <p>Durante mucho tiempo pensé que aprender significaba recordar una explicación y repetirla correctamente. Con la práctica entendí que el conocimiento se construye de otra manera: empieza cuando algo despierta una pregunta y continúa mientras buscamos respuestas, probamos ideas y revisamos lo que creíamos saber.</p>
+      <p>Cuando estudio un tema nuevo, intento dividirlo en pasos pequeños. Primero leo o miro un ejemplo; después cierro la guía e intento explicarlo con mis propias palabras. Si no puedo hacerlo, no lo tomo como un fracaso, sino como una pista que me indica qué parte merece otra mirada. Hacer ejercicios, equivocarme y corregir el resultado vuelve más clara una idea que parecía difícil.</p>
+      <p>También me ayuda relacionar lo nuevo con algo que ya conozco. Una página web, por ejemplo, deja de ser un conjunto de etiquetas cuando comprendo cómo cada elemento contribuye a una experiencia para otra persona. Compartir lo aprendido me obliga a ordenar mis pensamientos y puede servirle a alguien que está empezando.</p>
+      <p>No siempre avanzo al mismo ritmo, y eso está bien. La constancia importa más que hacerlo todo de una vez. Cada duda resuelta, cada nota y cada intento forman parte de un proceso largo. Para mí, crear conocimiento es mantener la curiosidad, aceptar que puedo cambiar de opinión y transformar lo aprendido en algo que pueda poner en práctica.</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#publicaciones" class="modal-close btn-flat">Volver a publicaciones</a>
+    </div>
+  </section>
+
+  <section id="articulo-luna" class="modal article-modal" aria-labelledby="titulo-luna">
+    <div class="modal-content">
+      <p class="eyebrow">Bienestar · 21 de octubre de 2026</p>
+      <h2 id="titulo-luna">Un respiro mirando la Luna</h2>
+      <p>Al terminar un día lleno de pendientes, salí unos minutos a mirar el cielo. La Luna estaba entre nubes finas y la calle parecía más tranquila de lo habitual. No ocurrió nada extraordinario: no llevaba una cámara, no tenía un plan y tampoco esperaba encontrar una respuesta. Solo necesitaba detenerme un momento antes de seguir con la noche.</p>
+      <p>Mientras observaba, me di cuenta de cuánto tiempo había pasado pensando en la siguiente tarea. A veces termino una cosa y ya estoy preocupado por la que viene después. Esa costumbre puede hacer que todo se sienta urgente, aunque no lo sea. Respirar con calma y observar algo distante me ayudó a salir de ese ciclo por un instante.</p>
+      <p>La pausa no resolvió mis responsabilidades ni cambió mis planes, pero me permitió volver a ellos con más claridad. Después preparé algo caliente, anoté lo que quería hacer al día siguiente y dejé el resto para la mañana. Escribirlo evitó que intentara guardar cada pendiente en la memoria justo antes de dormir.</p>
+      <p>Desde entonces procuro reservar pequeños espacios sin pantalla: caminar una cuadra, abrir la ventana o simplemente mirar el cielo. No hace falta convertir cada descanso en una actividad especial. A veces basta con reconocer que estamos aquí, que el día termina y que podemos comenzar de nuevo mañana. Esa pausa bajo la Luna me recordó que descansar también es parte de avanzar.</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#publicaciones" class="modal-close btn-flat">Volver a publicaciones</a>
+    </div>
+  </section>
+
+  <section id="articulo-empezar" class="modal article-modal" aria-labelledby="titulo-empezar">
+    <div class="modal-content">
+      <p class="eyebrow">Creatividad · 18 de octubre de 2026</p>
+      <h2 id="titulo-empezar">Hacer espacio para empezar</h2>
+      <p>Antes de trabajar en una idea nueva, a veces paso varios minutos organizando mi escritorio. No porque crea que el orden va a resolver el problema, sino porque me ayuda a señalar un comienzo. Guardo lo que ya no estoy usando, dejo una libreta a mano y preparo únicamente las herramientas que necesito para el primer paso.</p>
+      <p>Empezar suele ser la parte más difícil cuando imagino el resultado completo. Una página vacía parece exigir que todo salga perfecto desde la primera línea. Para evitar esa presión, intento cambiar la meta: en lugar de terminar un proyecto, me propongo escribir un borrador, dibujar una estructura sencilla o probar una sola función. Una tarea pequeña convierte la intención en movimiento.</p>
+      <p>También aprendí que la primera versión puede ser torpe y aun así tener valor. Un boceto permite descubrir lo que falta; una lista de preguntas muestra dónde investigar; un prototipo revela si una idea funciona para alguien más. Esperar a tener certeza antes de comenzar puede mantener una idea inmóvil durante semanas.</p>
+      <p>Hacer espacio, entonces, significa más que limpiar una mesa. Es reservar tiempo, bajar las expectativas iniciales y aceptar que el proceso incluye cambios. Cuando termino una sesión, anoto qué hice y cuál sería el siguiente paso. Así puedo retomarlo sin empezar desde cero cada vez. Las páginas en blanco siguen dando un poco de vértigo, pero ahora las veo como una invitación a probar algo, no como una evaluación.</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#publicaciones" class="modal-close btn-flat">Volver a publicaciones</a>
+    </div>
+  </section>
+
+  <section id="articulo-proyecto" class="modal article-modal" aria-labelledby="titulo-proyecto">
+    <div class="modal-content">
+      <p class="eyebrow">Tecnología · 12 de octubre de 2026</p>
+      <h2 id="titulo-proyecto">Mi primer proyecto web</h2>
+      <p>Mi primer proyecto web empezó con una idea sencilla: crear una página donde pudiera reunir información que me interesaba. Al principio me concentré en que apareciera algo en la pantalla. Escribí HTML, conecté una hoja de estilos y abrí el archivo en el navegador una y otra vez para ver qué cambiaba. Cada pequeño resultado me animaba a probar el siguiente elemento.</p>
+      <p>También cometí errores que ahora me parecen útiles. Olvidé cerrar etiquetas, usé nombres poco claros y cambié varios estilos al mismo tiempo, así que no sabía cuál había provocado el problema. Aprendí a avanzar en pasos cortos, revisar la consola y modificar una cosa por vez. Cuando algo no funcionaba, buscar la causa era parte del trabajo, no una interrupción.</p>
+      <p>Después pensé en las personas que podrían visitar la página. Ajusté el diseño para que el contenido se pudiera leer en un teléfono, añadí descripciones a las imágenes y ordené los encabezados. Comprendí que una web no se trata solo de colores y código; también debe ser clara y fácil de usar.</p>
+      <p>El proyecto no quedó perfecto, pero me dio una base concreta para seguir aprendiendo. Ahora puedo mirar cada parte y entender mejor qué hace, qué podría mejorar y qué preguntas todavía tengo. Terminar algo pequeño me enseñó más que esperar a sentirme preparado para construir algo grande. Mi siguiente reto es continuar practicando y compartir los avances, incluyendo los intentos que todavía necesitan trabajo.</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#publicaciones" class="modal-close btn-flat">Volver a publicaciones</a>
+    </div>
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="js/init.js"></script>
+</body>
+</html>
