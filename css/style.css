@@ -7,6 +7,8 @@
   --indigo-soft: #e8eaf6;
   --purple-soft: #ede7f6;
   --surface: #fff;
+  --nav-bg: #e8ebf0;
+  --nav-link: #3949ab;
   --footer-bg: #123b2f;
   --text-on-accent: #fff;
 }
@@ -40,13 +42,23 @@ nav {
   box-shadow: none;
 }
 
+nav.white {
+  background-color: var(--nav-bg) !important;
+}
+
 nav .nav-wrapper {
   width: 90%;
 }
 
 nav ul a,
 nav .brand-logo {
-  color: var(--ink);
+  color: var(--nav-link);
+}
+
+nav ul a:hover,
+nav ul a:focus-visible {
+  color: var(--indigo-purple);
+  background-color: var(--indigo-soft);
 }
 
 nav ul a {
@@ -651,6 +663,8 @@ body[data-theme="dark"] {
   --indigo-soft: #252c42;
   --purple-soft: #302744;
   --surface: #222834;
+  --nav-bg: #222834;
+  --nav-link: #c7d2fe;
   --footer-bg: #102b25;
   --text-on-accent: #111827;
   color: var(--ink);
