@@ -82,6 +82,20 @@ nav .brand-logo span {
   color: var(--indigo);
 }
 
+.sidenav {
+  background-color: var(--nav-bg);
+}
+
+.sidenav li > a {
+  color: var(--nav-link);
+}
+
+.sidenav li > a:hover,
+.sidenav li > a:focus-visible {
+  color: var(--indigo-purple);
+  background-color: var(--indigo-soft);
+}
+
 .sidenav li > a > i.material-icons {
   color: var(--indigo-purple);
 }
@@ -672,13 +686,20 @@ body[data-theme="dark"] {
 }
 
 body[data-theme="dark"] nav.white,
-body[data-theme="dark"] .sidenav,
 body[data-theme="dark"] .post-card,
 body[data-theme="dark"] .about-panel,
 body[data-theme="dark"] .contact-panel,
 body[data-theme="dark"] .article-modal,
 body[data-theme="dark"] .article-modal .modal-footer {
   background-color: var(--surface) !important;
+}
+
+body[data-theme="dark"] .sidenav {
+  background-color: var(--nav-bg) !important;
+}
+
+body[data-theme="dark"] .sidenav li > a {
+  color: var(--nav-link);
 }
 
 body[data-theme="dark"] .post-card .card-action {
